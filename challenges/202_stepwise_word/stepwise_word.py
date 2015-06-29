@@ -20,7 +20,6 @@ def make_stepwise(s):
 
 if __name__ == '__main__':
 
-    print make_stepwise(["cat", "dog", "hello"])
     with open(sys.argv[1], "r") as test_cases:
         for test in test_cases:
             s = test.replace("\n", "").split(" ")
